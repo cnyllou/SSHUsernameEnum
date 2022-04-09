@@ -5,6 +5,19 @@ Lost & Found key owner SSH brute-force
 
 Brute-force a username for a found SSH private key.
 
+## PREREQUISITES
+
+- For development I use 3.10.2 (Use this if your version is not working)
+- Minimal version should be 3.7, because of typing 
+
+Commands to run
+
+```bash
+python -m venv venv
+. venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
 ## USAGE
 
 ```bash
